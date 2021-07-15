@@ -11,8 +11,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/eclipse/paho.golang/autopaho"
-	"github.com/eclipse/paho.golang/paho"
+	"github.com/ppniu/mqtt.golang/autopaho"
+	"github.com/ppniu/mqtt.golang/paho"
 )
 
 // Connect to the broker and publish a message periodically

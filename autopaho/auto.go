@@ -11,14 +11,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eclipse/paho.golang/paho"
+	"github.com/ppniu/mqtt.golang/paho"
 )
 
-// AutoPaho is a wrapper around github.com/eclipse/paho.golang that simplifies the connection process; it automates
+// AutoPaho is a wrapper around github.com/ppniu/mqtt.golang that simplifies the connection process; it automates
 // connections (retrying until the connection comes up) and will attempt to re-establish the connection if it is lost.
 //
 // The aim is to cover a common requirement (connect to the broker and try to keep the connection up); if your
-// requirements differ then please consider using github.com/eclipse/paho.golang directly (perhaps using the
+// requirements differ then please consider using github.com/ppniu/mqtt.golang directly (perhaps using the
 // code in this file as a base; a secondary aim is to provide example code!).
 
 // ConnectionDownError Down will be returned when a request is made but the connection to the broker is down

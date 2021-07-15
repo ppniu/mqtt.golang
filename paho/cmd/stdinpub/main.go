@@ -12,7 +12,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/eclipse/paho.golang/paho"
+	"github.com/ppniu/mqtt.golang/paho"
 )
 
 func main() {

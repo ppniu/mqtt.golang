@@ -14,7 +14,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/eclipse/paho.golang/paho"
+	"github.com/ppniu/mqtt.golang/paho"
 )
 
 // Network (establishing connection) functionality for AutoPaho

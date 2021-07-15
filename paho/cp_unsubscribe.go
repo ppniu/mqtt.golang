@@ -1,6 +1,6 @@
 package paho
 
-import "github.com/eclipse/paho.golang/packets"
+import "github.com/ppniu/mqtt.golang/packets"
 
 type (
 	// Unsubscribe is a representation of an MQTT unsubscribe packet

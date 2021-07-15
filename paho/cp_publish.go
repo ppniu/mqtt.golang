@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/eclipse/paho.golang/packets"
+	"github.com/ppniu/mqtt.golang/packets"
 )
 
 type (
